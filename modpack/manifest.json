@@ -1,0 +1,493 @@
+{
+  "minecraft": {
+    "version": "1.18.2",
+    "modLoaders": [
+      {
+        "id": "fabric-0.14.0",
+        "primary": true
+      }
+    ]
+  },
+  "manifestType": "minecraftModpack",
+  "overrides": "overrides",
+  "manifestVersion": 1,
+  "version": "0.0.0",
+  "author": "FeltMC",
+  "name": "FeltCraft",
+  "files": [
+    {
+      "projectID": 223794,
+      "fileID": 3735901,
+      "required": true,
+      "__meta": {
+        "name": "Applied Energistics 2"
+      }
+    },
+    {
+      "projectID": 233564,
+      "fileID": 3761009,
+      "required": true,
+      "__meta": {
+        "name": "Tech Reborn",
+        "dependencies": [
+          237903
+        ]
+      }
+    },
+    {
+      "projectID": 237903,
+      "fileID": 3761010,
+      "required": true,
+      "__meta": {
+        "name": "Reborn Core",
+        "explicit": false
+      }
+    },
+    {
+      "projectID": 254466,
+      "fileID": 3672581,
+      "required": true,
+      "__meta": {
+        "name": "Simple Void World",
+        "dependencies": [
+          306612
+        ]
+      }
+    },
+    {
+      "projectID": 306612,
+      "fileID": 3759491,
+      "required": true,
+      "__meta": {
+        "name": "Fabric API",
+        "explicit": false
+      }
+    },
+    {
+      "projectID": 308702,
+      "fileID": 3745497,
+      "required": true,
+      "__meta": {
+        "name": "Mod Menu"
+      }
+    },
+    {
+      "projectID": 308769,
+      "fileID": 3751791,
+      "required": true,
+      "__meta": {
+        "name": "Fabric Language Kotlin",
+        "explicit": false
+      }
+    },
+    {
+      "projectID": 310111,
+      "fileID": 3752188,
+      "required": true,
+      "__meta": {
+        "name": "Roughly Enough Items Fabric/Forge (REI)",
+        "explicit": false,
+        "dependencies": [
+          306612,
+          419697,
+          319057
+        ]
+      }
+    },
+    {
+      "projectID": 319057,
+      "fileID": 3641132,
+      "required": true,
+      "__meta": {
+        "name": "Cloth Config API (UNUSED)",
+        "explicit": false
+      }
+    },
+    {
+      "projectID": 341284,
+      "fileID": 3669842,
+      "required": true,
+      "__meta": {
+        "name": "Trinkets (Fabric)",
+        "explicit": false
+      }
+    },
+    {
+      "projectID": 360438,
+      "fileID": 3670312,
+      "required": true,
+      "__meta": {
+        "name": "Lithium (Fabric)"
+      }
+    },
+    {
+      "projectID": 373093,
+      "fileID": 3728163,
+      "required": true,
+      "__meta": {
+        "name": "TacoCraft"
+      }
+    },
+    {
+      "projectID": 378266,
+      "fileID": 3748528,
+      "required": true,
+      "__meta": {
+        "name": "Mo' Structures (Fabric)",
+        "dependencies": [
+          306612
+        ]
+      }
+    },
+    {
+      "projectID": 387197,
+      "fileID": 3737806,
+      "required": true,
+      "__meta": {
+        "name": "Golems Galore"
+      }
+    },
+    {
+      "projectID": 388832,
+      "fileID": 3671408,
+      "required": true,
+      "__meta": {
+        "name": "Kibe Utilities",
+        "dependencies": [
+          306612,
+          308769
+        ]
+      }
+    },
+    {
+      "projectID": 391708,
+      "fileID": 3759591,
+      "required": true,
+      "__meta": {
+        "name": "Industrial Revolution",
+        "dependencies": [
+          306612,
+          308769
+        ]
+      }
+    },
+    {
+      "projectID": 393236,
+      "fileID": 3730975,
+      "required": true,
+      "__meta": {
+        "name": "Patchouli (Fabric)",
+        "explicit": false
+      }
+    },
+    {
+      "projectID": 394468,
+      "fileID": 3669187,
+      "required": true,
+      "__meta": {
+        "name": "Sodium"
+      }
+    },
+    {
+      "projectID": 395864,
+      "fileID": 3759303,
+      "required": true,
+      "__meta": {
+        "name": "KubeJS (Fabric)",
+        "dependencies": [
+          419697,
+          416294,
+          306612
+        ]
+      }
+    },
+    {
+      "projectID": 405388,
+      "fileID": 3718118,
+      "required": true,
+      "__meta": {
+        "name": "Modern Industrialization",
+        "dependencies": [
+          306612,
+          310111
+        ]
+      }
+    },
+    {
+      "projectID": 416294,
+      "fileID": 3742384,
+      "required": true,
+      "__meta": {
+        "name": "Rhino",
+        "explicit": false
+      }
+    },
+    {
+      "projectID": 418680,
+      "fileID": 3726050,
+      "required": true,
+      "__meta": {
+        "name": "Paradise Lost",
+        "dependencies": [
+          306612
+        ]
+      }
+    },
+    {
+      "projectID": 419697,
+      "fileID": 3758441,
+      "required": true,
+      "__meta": {
+        "name": "Architectury API (Fabric)",
+        "explicit": false,
+        "dependencies": [
+          306612
+        ]
+      }
+    },
+    {
+      "projectID": 421839,
+      "fileID": 3755268,
+      "required": true,
+      "__meta": {
+        "name": "Botania (Fabric)",
+        "dependencies": [
+          306612,
+          393236,
+          341284
+        ]
+      }
+    },
+    {
+      "projectID": 437443,
+      "fileID": 3559468,
+      "required": true,
+      "__meta": {
+        "name": "Better Sodium Video Settings Button"
+      }
+    },
+    {
+      "projectID": 440979,
+      "fileID": 3735869,
+      "required": true,
+      "__meta": {
+        "name": "WTHIT",
+        "dependencies": [
+          306612
+        ]
+      }
+    },
+    {
+      "projectID": 447673,
+      "fileID": 3733071,
+      "required": true,
+      "__meta": {
+        "name": "Sodium Extra",
+        "dependencies": [
+          394468
+        ]
+      }
+    },
+    {
+      "projectID": 454086,
+      "fileID": 3719371,
+      "required": true,
+      "__meta": {
+        "name": "Elemental Creepers: Refabricated",
+        "dependencies": [
+          306612
+        ]
+      }
+    },
+    {
+      "projectID": 459496,
+      "fileID": 3669436,
+      "required": true,
+      "__meta": {
+        "name": "Indium",
+        "dependencies": [
+          394468
+        ]
+      }
+    },
+    {
+      "projectID": 459857,
+      "fileID": 3672143,
+      "required": true,
+      "__meta": {
+        "name": "FerriteCore (Fabric)"
+      }
+    },
+    {
+      "projectID": 461316,
+      "fileID": 3759595,
+      "required": true,
+      "__meta": {
+        "name": "Wireless Networks",
+        "dependencies": [
+          306612
+        ]
+      }
+    },
+    {
+      "projectID": 465336,
+      "fileID": 3712532,
+      "required": true,
+      "__meta": {
+        "name": "Terrarian Slimes",
+        "dependencies": [
+          306612,
+          308769
+        ]
+      }
+    },
+    {
+      "projectID": 472772,
+      "fileID": 3720646,
+      "required": true,
+      "__meta": {
+        "name": "DashLoader"
+      }
+    },
+    {
+      "projectID": 473553,
+      "fileID": 3728143,
+      "required": true,
+      "__meta": {
+        "name": "Dark Enchanting",
+        "dependencies": [
+          306612
+        ]
+      }
+    },
+    {
+      "projectID": 483166,
+      "fileID": 3661225,
+      "required": true,
+      "__meta": {
+        "name": "Incantationem",
+        "dependencies": [
+          306612
+        ]
+      }
+    },
+    {
+      "projectID": 511319,
+      "fileID": 3682509,
+      "required": true,
+      "__meta": {
+        "name": "Reese's Sodium Options",
+        "dependencies": [
+          394468
+        ]
+      }
+    },
+    {
+      "projectID": 521783,
+      "fileID": 3667443,
+      "required": true,
+      "__meta": {
+        "name": "Starlight (Fabric)"
+      }
+    },
+    {
+      "projectID": 532610,
+      "fileID": 3760611,
+      "required": true,
+      "__meta": {
+        "name": "oωo (owo-lib)",
+        "explicit": false
+      }
+    },
+    {
+      "projectID": 535291,
+      "fileID": 3749233,
+      "required": true,
+      "__meta": {
+        "name": "MCA Reborn [Fabric/Forge]",
+        "dependencies": [
+          419697,
+          306612
+        ]
+      }
+    },
+    {
+      "projectID": 556967,
+      "fileID": 3761257,
+      "required": true,
+      "__meta": {
+        "name": "Spectrum",
+        "dependencies": [
+          393236,
+          306612,
+          319057,
+          341284,
+          532610
+        ]
+      }
+    },
+    {
+      "projectID": 567114,
+      "fileID": 3686556,
+      "required": true,
+      "__meta": {
+        "name": "The Extractinator (Fabric)",
+        "dependencies": [
+          306612,
+          319057
+        ]
+      }
+    },
+    {
+      "projectID": 575588,
+      "fileID": 3670713,
+      "required": true,
+      "__meta": {
+        "name": "Subterrestrial (Fabric)",
+        "dependencies": [
+          306612,
+          319057
+        ]
+      }
+    },
+    {
+      "projectID": 576449,
+      "fileID": 3753649,
+      "required": true,
+      "__meta": {
+        "name": "Coxinha Utilities",
+        "dependencies": [
+          306612
+        ]
+      }
+    },
+    {
+      "projectID": 596461,
+      "fileID": 3704458,
+      "required": true,
+      "__meta": {
+        "name": "No more Inifinite Water"
+      }
+    },
+    {
+      "projectID": 602252,
+      "fileID": 3755427,
+      "required": true,
+      "__meta": {
+        "name": "Ngrok LAN",
+        "dependencies": [
+          308702,
+          319057
+        ]
+      }
+    },
+    {
+      "projectID": 607169,
+      "fileID": 3745744,
+      "required": true,
+      "__meta": {
+        "name": "EndermanGrief"
+      }
+    }
+  ]
+}
