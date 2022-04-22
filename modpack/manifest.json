@@ -17,7 +17,7 @@
   "files": [
     {
       "projectID": 223794,
-      "fileID": 3735901,
+      "fileID": 3764063,
       "required": true,
       "__meta": {
         "name": "Applied Energistics 2"
@@ -73,7 +73,7 @@
     },
     {
       "projectID": 308769,
-      "fileID": 3751791,
+      "fileID": 3764014,
       "required": true,
       "__meta": {
         "name": "Fabric Language Kotlin",
@@ -190,7 +190,7 @@
     },
     {
       "projectID": 395864,
-      "fileID": 3759303,
+      "fileID": 3763448,
       "required": true,
       "__meta": {
         "name": "KubeJS (Fabric)",
@@ -452,7 +452,7 @@
     },
     {
       "projectID": 576449,
-      "fileID": 3753649,
+      "fileID": 3763926,
       "required": true,
       "__meta": {
         "name": "Coxinha Utilities",
