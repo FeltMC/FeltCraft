@@ -3,7 +3,7 @@
     "version": "1.18.2",
     "modLoaders": [
       {
-        "id": "fabric-0.14.0",
+        "id": "fabric-0.14.6",
         "primary": true
       }
     ]
@@ -17,7 +17,7 @@
   "files": [
     {
       "projectID": 223794,
-      "fileID": 3764063,
+      "fileID": 3791295,
       "required": true,
       "__meta": {
         "name": "Applied Energistics 2"
@@ -25,7 +25,7 @@
     },
     {
       "projectID": 233564,
-      "fileID": 3761009,
+      "fileID": 3798505,
       "required": true,
       "__meta": {
         "name": "Tech Reborn",
@@ -36,11 +36,25 @@
     },
     {
       "projectID": 237903,
-      "fileID": 3761010,
+      "fileID": 3798506,
       "required": true,
       "__meta": {
         "name": "Reborn Core",
         "explicit": false
+      }
+    },
+    {
+      "projectID": 238086,
+      "fileID": 3803981,
+      "required": true,
+      "__meta": {
+        "name": "KubeJS",
+        "explicit": false,
+        "dependencies": [
+          416294,
+          306612,
+          419699
+        ]
       }
     },
     {
@@ -63,6 +77,14 @@
       }
     },
     {
+      "projectID": 284876,
+      "fileID": 3732839,
+      "required": true,
+      "__meta": {
+        "name": "DimensionalDoors"
+      }
+    },
+    {
       "projectID": 286328,
       "fileID": 3667421,
       "required": true,
@@ -76,7 +98,7 @@
     },
     {
       "projectID": 306612,
-      "fileID": 3759491,
+      "fileID": 3803456,
       "required": true,
       "__meta": {
         "name": "Fabric API",
@@ -103,7 +125,7 @@
     },
     {
       "projectID": 310111,
-      "fileID": 3768212,
+      "fileID": 3802573,
       "required": true,
       "__meta": {
         "name": "Roughly Enough Items Fabric/Forge (REI)",
@@ -113,15 +135,6 @@
           419697,
           319057
         ]
-      }
-    },
-    {
-      "projectID": 319057,
-      "fileID": 3641132,
-      "required": true,
-      "__meta": {
-        "name": "Cloth Config API (UNUSED)",
-        "explicit": false
       }
     },
     {
@@ -148,11 +161,19 @@
     },
     {
       "projectID": 341284,
-      "fileID": 3669842,
+      "fileID": 3786685,
       "required": true,
       "__meta": {
         "name": "Trinkets (Fabric)",
         "explicit": false
+      }
+    },
+    {
+      "projectID": 348521,
+      "fileID": 3782775,
+      "required": true,
+      "__meta": {
+        "name": "Cloth Config API (Fabric/Forge)"
       }
     },
     {
@@ -176,7 +197,7 @@
     },
     {
       "projectID": 360438,
-      "fileID": 3670312,
+      "fileID": 3801263,
       "required": true,
       "__meta": {
         "name": "Lithium (Fabric)"
@@ -199,13 +220,45 @@
       }
     },
     {
+      "projectID": 373261,
+      "fileID": 3668220,
+      "required": true,
+      "__meta": {
+        "name": "Auto Config Updated API",
+        "explicit": false
+      }
+    },
+    {
+      "projectID": 374143,
+      "fileID": 3761195,
+      "required": true,
+      "__meta": {
+        "name": "Sandwichable",
+        "dependencies": [
+          306612
+        ]
+      }
+    },
+    {
       "projectID": 378266,
-      "fileID": 3748528,
+      "fileID": 3779101,
       "required": true,
       "__meta": {
         "name": "Mo' Structures (Fabric)",
         "dependencies": [
           306612
+        ]
+      }
+    },
+    {
+      "projectID": 386892,
+      "fileID": 3734921,
+      "required": true,
+      "__meta": {
+        "name": "Iron Jetpacks Fabric",
+        "dependencies": [
+          373261,
+          419697
         ]
       }
     },
@@ -284,7 +337,7 @@
     },
     {
       "projectID": 397510,
-      "fileID": 3752381,
+      "fileID": 3786181,
       "required": true,
       "__meta": {
         "name": "Carpet TIS Addition",
@@ -327,7 +380,7 @@
     },
     {
       "projectID": 405388,
-      "fileID": 3718118,
+      "fileID": 3775815,
       "required": true,
       "__meta": {
         "name": "Modern Industrialization",
@@ -335,6 +388,22 @@
           306612,
           310111
         ]
+      }
+    },
+    {
+      "projectID": 410902,
+      "fileID": 3800618,
+      "required": true,
+      "__meta": {
+        "name": "Fabric Waystones"
+      }
+    },
+    {
+      "projectID": 415438,
+      "fileID": 3779983,
+      "required": true,
+      "__meta": {
+        "name": "Croptopia [FABRIC/FORGE]"
       }
     },
     {
@@ -347,7 +416,7 @@
     },
     {
       "projectID": 416294,
-      "fileID": 3742384,
+      "fileID": 3802523,
       "required": true,
       "__meta": {
         "name": "Rhino",
@@ -356,7 +425,7 @@
     },
     {
       "projectID": 418680,
-      "fileID": 3726050,
+      "fileID": 3777049,
       "required": true,
       "__meta": {
         "name": "Paradise Lost",
@@ -366,11 +435,11 @@
       }
     },
     {
-      "projectID": 419697,
-      "fileID": 3758441,
+      "projectID": 419699,
+      "fileID": 3801524,
       "required": true,
       "__meta": {
-        "name": "Architectury API (Fabric)",
+        "name": "Architectury API (Fabric/Forge)",
         "explicit": false,
         "dependencies": [
           306612
@@ -379,7 +448,7 @@
     },
     {
       "projectID": 421839,
-      "fileID": 3755268,
+      "fileID": 3789681,
       "required": true,
       "__meta": {
         "name": "Botania (Fabric)",
@@ -410,11 +479,34 @@
       }
     },
     {
+      "projectID": 429371,
+      "fileID": 3804512,
+      "required": true,
+      "__meta": {
+        "name": "KubeJS Create",
+        "dependencies": [
+          238086,
+          624165
+        ]
+      }
+    },
+    {
       "projectID": 433518,
       "fileID": 3209972,
       "required": true,
       "__meta": {
         "name": "LazyDFU"
+      }
+    },
+    {
+      "projectID": 439890,
+      "fileID": 3794931,
+      "required": true,
+      "__meta": {
+        "name": "Create Crafts & Additions",
+        "dependencies": [
+          624165
+        ]
       }
     },
     {
@@ -431,7 +523,7 @@
     },
     {
       "projectID": 440979,
-      "fileID": 3765902,
+      "fileID": 3791303,
       "required": true,
       "__meta": {
         "name": "WTHIT",
@@ -453,7 +545,7 @@
     },
     {
       "projectID": 447673,
-      "fileID": 3733071,
+      "fileID": 3793985,
       "required": true,
       "__meta": {
         "name": "Sodium Extra",
@@ -568,10 +660,21 @@
     },
     {
       "projectID": 473553,
-      "fileID": 3728143,
+      "fileID": 3777836,
       "required": true,
       "__meta": {
         "name": "Dark Enchanting",
+        "dependencies": [
+          306612
+        ]
+      }
+    },
+    {
+      "projectID": 482834,
+      "fileID": 3770564,
+      "required": true,
+      "__meta": {
+        "name": "Farmer's Delight [Fabric]",
         "dependencies": [
           306612
         ]
@@ -585,6 +688,18 @@
         "name": "Incantationem",
         "dependencies": [
           306612
+        ]
+      }
+    },
+    {
+      "projectID": 504045,
+      "fileID": 3783101,
+      "required": true,
+      "__meta": {
+        "name": "KubeJS Extras",
+        "dependencies": [
+          395864,
+          310111
         ]
       }
     },
@@ -629,7 +744,7 @@
     },
     {
       "projectID": 532610,
-      "fileID": 3760611,
+      "fileID": 3781251,
       "required": true,
       "__meta": {
         "name": "oωo (owo-lib)",
@@ -650,6 +765,18 @@
       }
     },
     {
+      "projectID": 536984,
+      "fileID": 3683202,
+      "required": true,
+      "__meta": {
+        "name": "St'ructure Tools",
+        "dependencies": [
+          306612,
+          319057
+        ]
+      }
+    },
+    {
       "projectID": 537533,
       "fileID": 3502167,
       "required": true,
@@ -659,7 +786,7 @@
     },
     {
       "projectID": 548115,
-      "fileID": 3745901,
+      "fileID": 3785287,
       "required": true,
       "__meta": {
         "name": "Alternate Current"
@@ -682,6 +809,17 @@
       }
     },
     {
+      "projectID": 552758,
+      "fileID": 3795161,
+      "required": true,
+      "__meta": {
+        "name": "Modern Dynamics",
+        "dependencies": [
+          306612
+        ]
+      }
+    },
+    {
       "projectID": 556967,
       "fileID": 3761257,
       "required": true,
@@ -697,8 +835,20 @@
       }
     },
     {
+      "projectID": 560262,
+      "fileID": 3771647,
+      "required": true,
+      "__meta": {
+        "name": "Croptopia's Chocolaterie [Fabric]",
+        "dependencies": [
+          415438,
+          306612
+        ]
+      }
+    },
+    {
       "projectID": 563800,
-      "fileID": 3769615,
+      "fileID": 3796436,
       "required": true,
       "__meta": {
         "name": "AE2 Things",
@@ -710,7 +860,7 @@
     },
     {
       "projectID": 567114,
-      "fileID": 3686556,
+      "fileID": 3778210,
       "required": true,
       "__meta": {
         "name": "The Extractinator (Fabric)",
@@ -734,7 +884,7 @@
     },
     {
       "projectID": 576449,
-      "fileID": 3763926,
+      "fileID": 3804386,
       "required": true,
       "__meta": {
         "name": "Coxinha Utilities",
@@ -769,7 +919,7 @@
     },
     {
       "projectID": 602252,
-      "fileID": 3755427,
+      "fileID": 3782862,
       "required": true,
       "__meta": {
         "name": "Ngrok LAN",
@@ -789,10 +939,57 @@
     },
     {
       "projectID": 615134,
-      "fileID": 3765871,
+      "fileID": 3773641,
       "required": true,
       "__meta": {
         "name": "bad packets"
+      }
+    },
+    {
+      "projectID": 619235,
+      "fileID": 3789050,
+      "required": true,
+      "__meta": {
+        "name": "Mini Dynamic Lights",
+        "dependencies": [
+          306612
+        ]
+      }
+    },
+    {
+      "projectID": 622711,
+      "fileID": 3787709,
+      "required": true,
+      "__meta": {
+        "name": "Creeper Swarm"
+      }
+    },
+    {
+      "projectID": 623941,
+      "fileID": 3793504,
+      "required": true,
+      "__meta": {
+        "name": "CreatePlus"
+      }
+    },
+    {
+      "projectID": 624165,
+      "fileID": 3802017,
+      "required": true,
+      "__meta": {
+        "name": "Create Fabric",
+        "dependencies": [
+          306612,
+          306612
+        ]
+      }
+    },
+    {
+      "projectID": 624390,
+      "fileID": 3795212,
+      "required": true,
+      "__meta": {
+        "name": "Mining Gadgets Fabric"
       }
     }
   ]
