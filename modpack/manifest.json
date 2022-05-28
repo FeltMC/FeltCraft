@@ -125,7 +125,7 @@
     },
     {
       "projectID": 310111,
-      "fileID": 3802573,
+      "fileID": 3807859,
       "required": true,
       "__meta": {
         "name": "Roughly Enough Items Fabric/Forge (REI)",
@@ -139,7 +139,7 @@
     },
     {
       "projectID": 321014,
-      "fileID": 3672807,
+      "fileID": 3806676,
       "required": true,
       "__meta": {
         "name": "Redstone Bits",
@@ -353,6 +353,7 @@
       "__meta": {
         "name": "Dawn API",
         "explicit": false,
+        "pinned": true,
         "dependencies": [
           306612
         ]
@@ -360,7 +361,7 @@
     },
     {
       "projectID": 399648,
-      "fileID": 3723580,
+      "fileID": 3806650,
       "required": true,
       "__meta": {
         "name": "Promenade",
@@ -400,7 +401,7 @@
     },
     {
       "projectID": 415438,
-      "fileID": 3779983,
+      "fileID": 3805874,
       "required": true,
       "__meta": {
         "name": "Croptopia [FABRIC/FORGE]"
@@ -436,7 +437,7 @@
     },
     {
       "projectID": 419699,
-      "fileID": 3801524,
+      "fileID": 3807923,
       "required": true,
       "__meta": {
         "name": "Architectury API (Fabric/Forge)",
@@ -500,7 +501,7 @@
     },
     {
       "projectID": 439890,
-      "fileID": 3794931,
+      "fileID": 3804888,
       "required": true,
       "__meta": {
         "name": "Create Crafts & Additions",
@@ -624,7 +625,7 @@
     },
     {
       "projectID": 462672,
-      "fileID": 3723736,
+      "fileID": 3806914,
       "required": true,
       "__meta": {
         "name": "CC: Restitched"
@@ -810,7 +811,7 @@
     },
     {
       "projectID": 552758,
-      "fileID": 3795161,
+      "fileID": 3806786,
       "required": true,
       "__meta": {
         "name": "Modern Dynamics",
@@ -990,6 +991,14 @@
       "required": true,
       "__meta": {
         "name": "Mining Gadgets Fabric"
+      }
+    },
+    {
+      "projectID": 627566,
+      "fileID": 3804592,
+      "required": true,
+      "__meta": {
+        "name": "MemoryLeakFix"
       }
     }
   ]
