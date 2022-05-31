@@ -9,49 +9,76 @@
 const GENERATE_REI_SCRIPT = true;
 // List of part tags to unify.
 const PARTS = [
-    "c:{}_blocks",
-    "c:{}_dusts",
-    "c:{}_ingots",
-    "c:{}_nuggets",
-    "c:{}_plates",
+"c:circuits/{}",
+    "c:blocks/{}",
+    "c:dusts/{}",
+    "c:ingots/{}",
+    "c:nuggets/{}",
+    "c:plates/{}",
     "c:rods/{}",
     "c:wires/{}",
-    "c:raw_{}_ores",
-    "c:raw_{}_blocks"
+	"c:gears/{}",
+	"c:tiny_dusts/{}",
+	"c:small_dusts/{}",
+    "c:circuits/{}",
+    "c:raw_materials/{}",
+    "c:storage_blocks/raw_{}"
 ];
 // List of materials to unify.
 const MATERIALS = [
     "aluminum",
+	"antimony",
+	"battery_alloy",
     "bauxite",
+    "beryllium",
+	"brass",
+    "brick",
     "bronze",
+    "cadmium",
+    "carbon",
     "chrome",
     "coal",
+    "coal_coke",
     "copper",
+    "cupronickel",
     "diamond",
     "electrum",
     "emerald",
+    "fire_clay",
     "gold",
     "invar",
     "iridium",
+    "iridium_alloy",
     "iron",
+    "kanthal",
     "lapis",
     "lead",
     "manganese",
     "nickel",
     "platinum",
     "quartz",
+	"redstone",
     "ruby",
+    "salt",
     "silicon",
     "silver",
+    "sodium",
+    "soldering_alloy",
+	"stainless_steel",
     "steel",
     "sulfur",
     "tin",
     "titanium",
     "tungsten",
-    "salt",
-    "carbon",
-    "brass",
-    "zinc"
+	"uranium_235",
+	"uranium_238",
+	"uranium",
+    "zinc",
+    "basic",
+    "advanced",
+    "data",
+    "elite",
+    "master"
 ];
 // Order of mods to unify
 const UNIFICATION_ORDER = [
@@ -59,16 +86,19 @@ const UNIFICATION_ORDER = [
     "create",
     "createplus",
     "createaddition",
-    "indrev",
     "bewitchment",
     "techreborn",
+	"indrev",
+    "gt4r",
+    "gregtech",
+    "antimatter",
     "croptopia",
     "dwarfcoal",
     "ae2"
 ];
 // List of tags NOT to unify
 const UNIFICATION_BLACKLIST = [
-    "c:quartz_blocks"
+    "c:blocks/quartz"
 ];
 // Map of removed item -> unified variant.
 const itemIdToUnified = {};
@@ -117,22 +147,25 @@ function findTagUnification(event, tagName) {
 }
 // Unify common tags
 onEvent('tags.items', event => {
-    event.add('c:zinc_plates', 'techreborn:zinc_plate')
-    event.add('c:brass_plates', 'techreborn:brass_plate')
-    event.add('c:gold_plates', 'create:golden_sheet')
-    event.add('c:iron_plates', 'create:iron_sheet')
-    event.add('c:copper_plates', 'create:copper_sheet')
-    event.add('c:copper_nuggets', 'create:copper_nugget')
-    event.add('c:diamond_dusts', 'createaddition:diamond_grit')
-    event.add('c:zinc_plates', 'createaddition:zinc_sheet')
-    event.add('c:rods/gold', 'modern_industrialization:gold_rod')
-    event.add('c:rods/copper', 'modern_industrialization:copper_rod')
-    event.add('c:rods/iron', 'modern_industrialization:iron_rod')
-    event.add('c:wires/copper', 'modern_industrialization:copper_wire')
     // Regular parts
     MATERIALS.forEach(material => {
         PARTS.forEach(partTagTemplate => {
             const tagName = partTagTemplate.replace("{}", material);
+            
+            //Forge Tags
+			if (partTagTemplate === "c:raw_materials/{}") {
+				event.get('c:raw_'+material+'_ores').getObjectIds().forEach(item => {
+					event.add(tagName, item)
+				});
+			} else if (partTagTemplate === "c:storage_blocks/raw_{}") {
+				event.get('c:raw_'+material+'_blocks').getObjectIds().forEach(item => {
+					event.add(tagName, item)
+				});
+			} else {
+                event.get('c:'+material+'_'+partTagTemplate.replace("c:", "").replace("/{}", "")).getObjectIds().forEach(item => {
+                    event.add(tagName, item)
+                });
+            } 
 
             // Pick unification target
             let unifyTargetId = findTagUnification(event, tagName);
@@ -151,9 +184,8 @@ onEvent('tags.items', event => {
                 }
             });
         });
-    });
+
     // Ore parts
-    MATERIALS.forEach(material => {
         const oreTagName = `c:${material}_ores`;
         const oreItemId = findTagUnification(event, oreTagName);
 
@@ -291,7 +323,7 @@ onEvent('recipes', event => {
 function generateReiScript(itemIdToUnified) {
     script = `  
 //////////////////////////////////////////////////////////////////////////
-// AOF 5 REI Unification Script.                                        //
+//  REI Unification Script.                                             //
 //////////////////////////////////////////////////////////////////////////
 const DELETED_ITEMS = ["${Object.keys(itemIdToUnified).join('", "')}"];
 onEvent("rei.hide.items", event => {
