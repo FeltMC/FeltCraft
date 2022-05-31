@@ -45,7 +45,7 @@
     },
     {
       "projectID": 238086,
-      "fileID": 3803981,
+      "fileID": 3809820,
       "required": true,
       "__meta": {
         "name": "KubeJS",
@@ -98,7 +98,7 @@
     },
     {
       "projectID": 306612,
-      "fileID": 3803456,
+      "fileID": 3811649,
       "required": true,
       "__meta": {
         "name": "Fabric API",
@@ -139,7 +139,7 @@
     },
     {
       "projectID": 321014,
-      "fileID": 3806676,
+      "fileID": 3810366,
       "required": true,
       "__meta": {
         "name": "Redstone Bits",
@@ -205,7 +205,7 @@
     },
     {
       "projectID": 366140,
-      "fileID": 3758057,
+      "fileID": 3675463,
       "required": true,
       "__meta": {
         "name": "Dynamic View[Forge/Fabric]"
@@ -307,7 +307,7 @@
     },
     {
       "projectID": 393236,
-      "fileID": 3730975,
+      "fileID": 3809920,
       "required": true,
       "__meta": {
         "name": "Patchouli (Fabric)",
@@ -397,14 +397,6 @@
       "required": true,
       "__meta": {
         "name": "Fabric Waystones"
-      }
-    },
-    {
-      "projectID": 415438,
-      "fileID": 3805874,
-      "required": true,
-      "__meta": {
-        "name": "Croptopia [FABRIC/FORGE]"
       }
     },
     {
@@ -811,7 +803,7 @@
     },
     {
       "projectID": 552758,
-      "fileID": 3806786,
+      "fileID": 3808115,
       "required": true,
       "__meta": {
         "name": "Modern Dynamics",
@@ -832,18 +824,6 @@
           319057,
           341284,
           532610
-        ]
-      }
-    },
-    {
-      "projectID": 560262,
-      "fileID": 3771647,
-      "required": true,
-      "__meta": {
-        "name": "Croptopia's Chocolaterie [Fabric]",
-        "dependencies": [
-          415438,
-          306612
         ]
       }
     },
@@ -995,7 +975,7 @@
     },
     {
       "projectID": 627566,
-      "fileID": 3804592,
+      "fileID": 3811826,
       "required": true,
       "__meta": {
         "name": "MemoryLeakFix"
