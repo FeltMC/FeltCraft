@@ -3,7 +3,7 @@
     "version": "1.18.2",
     "modLoaders": [
       {
-        "id": "fabric-0.14.6",
+        "id": "fabric-0.14.7",
         "primary": true
       }
     ]
@@ -17,7 +17,7 @@
   "files": [
     {
       "projectID": 223794,
-      "fileID": 3791295,
+      "fileID": 3825348,
       "required": true,
       "__meta": {
         "name": "Applied Energistics 2"
@@ -45,7 +45,7 @@
     },
     {
       "projectID": 238086,
-      "fileID": 3809820,
+      "fileID": 3819615,
       "required": true,
       "__meta": {
         "name": "KubeJS",
@@ -98,7 +98,7 @@
     },
     {
       "projectID": 306612,
-      "fileID": 3811649,
+      "fileID": 3817527,
       "required": true,
       "__meta": {
         "name": "Fabric API",
@@ -116,7 +116,7 @@
     },
     {
       "projectID": 308769,
-      "fileID": 3764014,
+      "fileID": 3825017,
       "required": true,
       "__meta": {
         "name": "Fabric Language Kotlin",
@@ -125,7 +125,7 @@
     },
     {
       "projectID": 310111,
-      "fileID": 3807859,
+      "fileID": 3824452,
       "required": true,
       "__meta": {
         "name": "Roughly Enough Items Fabric/Forge (REI)",
@@ -205,7 +205,7 @@
     },
     {
       "projectID": 366140,
-      "fileID": 3675463,
+      "fileID": 3758057,
       "required": true,
       "__meta": {
         "name": "Dynamic View[Forge/Fabric]"
@@ -337,7 +337,7 @@
     },
     {
       "projectID": 397510,
-      "fileID": 3786181,
+      "fileID": 3814610,
       "required": true,
       "__meta": {
         "name": "Carpet TIS Addition",
@@ -373,7 +373,7 @@
     },
     {
       "projectID": 403914,
-      "fileID": 3692322,
+      "fileID": 3822702,
       "required": true,
       "__meta": {
         "name": "Red Bits"
@@ -381,7 +381,7 @@
     },
     {
       "projectID": 405388,
-      "fileID": 3775815,
+      "fileID": 3818691,
       "required": true,
       "__meta": {
         "name": "Modern Industrialization",
@@ -393,7 +393,7 @@
     },
     {
       "projectID": 410902,
-      "fileID": 3800618,
+      "fileID": 3820904,
       "required": true,
       "__meta": {
         "name": "Fabric Waystones"
@@ -409,7 +409,7 @@
     },
     {
       "projectID": 416294,
-      "fileID": 3802523,
+      "fileID": 3820126,
       "required": true,
       "__meta": {
         "name": "Rhino",
@@ -429,7 +429,7 @@
     },
     {
       "projectID": 419699,
-      "fileID": 3807923,
+      "fileID": 3824306,
       "required": true,
       "__meta": {
         "name": "Architectury API (Fabric/Forge)",
@@ -441,7 +441,7 @@
     },
     {
       "projectID": 421839,
-      "fileID": 3789681,
+      "fileID": 3818544,
       "required": true,
       "__meta": {
         "name": "Botania (Fabric)",
@@ -473,7 +473,7 @@
     },
     {
       "projectID": 429371,
-      "fileID": 3804512,
+      "fileID": 3815883,
       "required": true,
       "__meta": {
         "name": "KubeJS Create",
@@ -538,7 +538,7 @@
     },
     {
       "projectID": 447673,
-      "fileID": 3793985,
+      "fileID": 3821006,
       "required": true,
       "__meta": {
         "name": "Sodium Extra",
@@ -617,7 +617,7 @@
     },
     {
       "projectID": 462672,
-      "fileID": 3806914,
+      "fileID": 3816592,
       "required": true,
       "__meta": {
         "name": "CC: Restitched"
@@ -637,7 +637,7 @@
     },
     {
       "projectID": 472772,
-      "fileID": 3720646,
+      "fileID": 3820019,
       "required": true,
       "__meta": {
         "name": "DashLoader"
@@ -710,7 +710,7 @@
     },
     {
       "projectID": 511319,
-      "fileID": 3682509,
+      "fileID": 3820947,
       "required": true,
       "__meta": {
         "name": "Reese's Sodium Options",
@@ -737,7 +737,7 @@
     },
     {
       "projectID": 532610,
-      "fileID": 3781251,
+      "fileID": 3824297,
       "required": true,
       "__meta": {
         "name": "oωo (owo-lib)",
@@ -779,7 +779,7 @@
     },
     {
       "projectID": 548115,
-      "fileID": 3785287,
+      "fileID": 3820800,
       "required": true,
       "__meta": {
         "name": "Alternate Current"
@@ -814,7 +814,7 @@
     },
     {
       "projectID": 556967,
-      "fileID": 3761257,
+      "fileID": 3820749,
       "required": true,
       "__meta": {
         "name": "Spectrum",
@@ -900,7 +900,7 @@
     },
     {
       "projectID": 602252,
-      "fileID": 3782862,
+      "fileID": 3819607,
       "required": true,
       "__meta": {
         "name": "Ngrok LAN",
@@ -955,7 +955,7 @@
     },
     {
       "projectID": 624165,
-      "fileID": 3802017,
+      "fileID": 3820156,
       "required": true,
       "__meta": {
         "name": "Create Fabric",
@@ -975,7 +975,7 @@
     },
     {
       "projectID": 627566,
-      "fileID": 3811826,
+      "fileID": 3816149,
       "required": true,
       "__meta": {
         "name": "MemoryLeakFix"
