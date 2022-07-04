@@ -25,9 +25,9 @@ onEvent('tags.items', event => {
 	event.add('c:machine_hulls/advanced', 'techreborn:advanced_machine_frame');
 	event.add('c:machine_hulls/very_advanced', 'techreborn:industrial_machine_frame');
 	
+	event.add('c:circuits/primative', 'modern_industrialization:analog_circuit');
 	event.add('c:circuits/basic', 'indrev:circuit_mk1');
 	event.add('c:circuits/basic', 'techreborn:electronic_circuit');
-	event.add('c:circuits/good', 'modern_industrialization:analog_circuit');
 	event.add('c:circuits/advanced', 'indrev:circuit_mk2');
 	event.add('c:circuits/advanced', 'techreborn:advanced_circuit');
 	event.add('c:circuits/complex', 'techreborn:industrial_circuit');
@@ -35,16 +35,18 @@ onEvent('tags.items', event => {
 	event.add('c:circuits/data', 'techreborn:data_storage_core');
 	event.add('c:circuits/elite', 'indrev:circuit_mk3');
 	event.add('c:circuits/elite', 'techreborn:data_storage_chip');
-	event.add('c:circuits/digital', 'modern_industrialization:digital_circuit');
-	event.add('c:circuits/master', 'indrev:circuit_mk4');
-	event.add('c:circuits/master', 'techreborn:energy_flow_chip');
+	event.add('c:circuits/master', 'modern_industrialization:digital_circuit');
+	event.add('c:circuits/ultimate', 'indrev:circuit_mk4');
+	event.add('c:circuits/ultimate', 'techreborn:energy_flow_chip');
 	event.add('c:circuits/processing', 'modern_industrialization:processing_unit');
 	event.add('c:circuits/quantum', 'modern_industrialization:quantum_circuit');
+	
+	//event.get('c:tools/hammer').getObjectIds().forEach(id => {event.add('modern_industrialization:forge_hammer_tools', id);}); //incase antimatter/gt4r needs it later
 	
 	event.removeAllTagsFrom('modern_industrialization:iridium_plate');
  	event.add('c:plates/iridium_alloy', 'modern_industrialization:iridium_plate');
 	
-	["aluminum", "bronze", "copper", "gold", "invar", "iron", "stainless_steel", "steel", "tin", "titanium", "tungsten"].forEach(m => {
+	["aluminum", "bronze", "copper", "gold", "invar", "iron", "stainless_steel", "steel", "tin", "titanium", "tungsten", "uranium"].forEach(m => {
 		event.add('c:rods/'+m, 'modern_industrialization:'+m+'_rod')
 	});
 	["aluminum", "bronze", "copper", "gold", "invar", "iron", "stainless_steel", "steel", "tin", "titanium"].forEach(m => {
