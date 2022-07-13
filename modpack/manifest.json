@@ -3,7 +3,7 @@
     "version": "1.18.2",
     "modLoaders": [
       {
-        "id": "fabric-0.14.7",
+        "id": "fabric-0.14.8",
         "primary": true
       }
     ]
@@ -17,7 +17,7 @@
   "files": [
     {
       "projectID": 223794,
-      "fileID": 3836462,
+      "fileID": 3859633,
       "required": true,
       "__meta": {
         "name": "Applied Energistics 2"
@@ -129,7 +129,7 @@
     },
     {
       "projectID": 308777,
-      "fileID": 3841772,
+      "fileID": 3859493,
       "required": true,
       "__meta": {
         "name": "Traverse",
@@ -140,7 +140,7 @@
     },
     {
       "projectID": 310111,
-      "fileID": 3851414,
+      "fileID": 3870767,
       "required": true,
       "__meta": {
         "name": "Roughly Enough Items Fabric/Forge (REI)",
@@ -178,6 +178,17 @@
       "required": true,
       "__meta": {
         "name": "Redstone Bits",
+        "dependencies": [
+          306612
+        ]
+      }
+    },
+    {
+      "projectID": 324717,
+      "fileID": 3866561,
+      "required": true,
+      "__meta": {
+        "name": "Jade 🔍",
         "dependencies": [
           306612
         ]
@@ -228,6 +239,14 @@
         "dependencies": [
           349239
         ]
+      }
+    },
+    {
+      "projectID": 353890,
+      "fileID": 3758296,
+      "required": true,
+      "__meta": {
+        "name": "Not Enough Crashes (Fabric)"
       }
     },
     {
@@ -359,7 +378,7 @@
     },
     {
       "projectID": 391378,
-      "fileID": 3825948,
+      "fileID": 3868888,
       "required": true,
       "__meta": {
         "name": "Oh The Biomes You'll Go Refabricated",
@@ -377,6 +396,18 @@
         "dependencies": [
           306612,
           308769
+        ]
+      }
+    },
+    {
+      "projectID": 391943,
+      "fileID": 3752286,
+      "required": true,
+      "__meta": {
+        "name": "Origins (Fabric)",
+        "explicit": false,
+        "dependencies": [
+          306612
         ]
       }
     },
@@ -445,6 +476,17 @@
       }
     },
     {
+      "projectID": 401833,
+      "fileID": 3752361,
+      "required": true,
+      "__meta": {
+        "name": "Origins: Classes",
+        "dependencies": [
+          391943
+        ]
+      }
+    },
+    {
       "projectID": 403914,
       "fileID": 3822702,
       "required": true,
@@ -454,7 +496,7 @@
     },
     {
       "projectID": 405388,
-      "fileID": 3841564,
+      "fileID": 3866891,
       "required": true,
       "__meta": {
         "name": "Modern Industrialization",
@@ -484,8 +526,19 @@
       }
     },
     {
+      "projectID": 408118,
+      "fileID": 3838424,
+      "required": true,
+      "__meta": {
+        "name": "megane",
+        "dependencies": [
+          440979
+        ]
+      }
+    },
+    {
       "projectID": 410902,
-      "fileID": 3820904,
+      "fileID": 3864556,
       "required": true,
       "__meta": {
         "name": "Fabric Waystones"
@@ -648,6 +701,17 @@
       }
     },
     {
+      "projectID": 449974,
+      "fileID": 3752009,
+      "required": true,
+      "__meta": {
+        "name": "Mob Origins",
+        "dependencies": [
+          391943
+        ]
+      }
+    },
+    {
       "projectID": 452046,
       "fileID": 3841822,
       "required": true,
@@ -796,6 +860,17 @@
       }
     },
     {
+      "projectID": 509285,
+      "fileID": 3810882,
+      "required": true,
+      "__meta": {
+        "name": "Create Deco",
+        "dependencies": [
+          624165
+        ]
+      }
+    },
+    {
       "projectID": 509575,
       "fileID": 3745495,
       "required": true,
@@ -897,7 +972,7 @@
     },
     {
       "projectID": 552542,
-      "fileID": 3669618,
+      "fileID": 3871977,
       "required": true,
       "__meta": {
         "name": "Very Many Players (Fabric)"
@@ -1021,7 +1096,7 @@
     },
     {
       "projectID": 576449,
-      "fileID": 3804386,
+      "fileID": 3869580,
       "required": true,
       "__meta": {
         "name": "Coxinha Utilities",
@@ -1040,7 +1115,7 @@
     },
     {
       "projectID": 585406,
-      "fileID": 3857602,
+      "fileID": 3866408,
       "required": true,
       "__meta": {
         "name": "ProbeJS",
@@ -1120,7 +1195,7 @@
     },
     {
       "projectID": 616602,
-      "fileID": 3845016,
+      "fileID": 3864315,
       "required": true,
       "__meta": {
         "name": "Extended Drawers",
@@ -1156,6 +1231,17 @@
       "required": true,
       "__meta": {
         "name": "Mini Dynamic Lights",
+        "dependencies": [
+          306612
+        ]
+      }
+    },
+    {
+      "projectID": 620248,
+      "fileID": 3782443,
+      "required": true,
+      "__meta": {
+        "name": "[Fabric] Progressive Bosses",
         "dependencies": [
           306612
         ]
@@ -1231,6 +1317,17 @@
       "required": true,
       "__meta": {
         "name": "Audio Engine Tweaks"
+      }
+    },
+    {
+      "projectID": 638230,
+      "fileID": 3871138,
+      "required": true,
+      "__meta": {
+        "name": "RPG Origins",
+        "dependencies": [
+          391943
+        ]
       }
     }
   ]
