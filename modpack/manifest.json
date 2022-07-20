@@ -53,7 +53,7 @@
     },
     {
       "projectID": 238086,
-      "fileID": 3856923,
+      "fileID": 3880088,
       "required": true,
       "__meta": {
         "name": "KubeJS",
@@ -78,10 +78,21 @@
     },
     {
       "projectID": 256717,
-      "fileID": 3833878,
+      "fileID": 3886100,
       "required": true,
       "__meta": {
         "name": "Clumps"
+      }
+    },
+    {
+      "projectID": 265729,
+      "fileID": 3852823,
+      "required": true,
+      "__meta": {
+        "name": "Requiem",
+        "dependencies": [
+          306612
+        ]
       }
     },
     {
@@ -173,22 +184,23 @@
       }
     },
     {
-      "projectID": 321014,
-      "fileID": 3810366,
+      "projectID": 319596,
+      "fileID": 3849579,
       "required": true,
       "__meta": {
-        "name": "Redstone Bits",
+        "name": "Pehkui",
+        "explicit": false,
         "dependencies": [
           306612
         ]
       }
     },
     {
-      "projectID": 324717,
-      "fileID": 3866561,
+      "projectID": 321014,
+      "fileID": 3810366,
       "required": true,
       "__meta": {
-        "name": "Jade 🔍",
+        "name": "Redstone Bits",
         "dependencies": [
           306612
         ]
@@ -298,6 +310,17 @@
       }
     },
     {
+      "projectID": 376207,
+      "fileID": 3689007,
+      "required": true,
+      "__meta": {
+        "name": "Greater Eye of Ender [FABRIC]",
+        "dependencies": [
+          306612
+        ]
+      }
+    },
+    {
       "projectID": 378266,
       "fileID": 3779101,
       "required": true,
@@ -341,6 +364,18 @@
       }
     },
     {
+      "projectID": 388172,
+      "fileID": 3885199,
+      "required": true,
+      "__meta": {
+        "name": "GeckoLib",
+        "explicit": false,
+        "dependencies": [
+          306612
+        ]
+      }
+    },
+    {
       "projectID": 388832,
       "fileID": 3842007,
       "required": true,
@@ -360,6 +395,17 @@
         "name": "Parry",
         "dependencies": [
           306612
+        ]
+      }
+    },
+    {
+      "projectID": 390027,
+      "fileID": 3568159,
+      "required": true,
+      "__meta": {
+        "name": "Hwyla Addon Horse Info",
+        "dependencies": [
+          440979
         ]
       }
     },
@@ -429,8 +475,23 @@
       }
     },
     {
+      "projectID": 394915,
+      "fileID": 3860751,
+      "required": true,
+      "__meta": {
+        "name": "Bewitchment",
+        "dependencies": [
+          393236,
+          341284,
+          319596,
+          306612,
+          348521
+        ]
+      }
+    },
+    {
       "projectID": 397510,
-      "fileID": 3829152,
+      "fileID": 3879121,
       "required": true,
       "__meta": {
         "name": "Carpet TIS Addition",
@@ -476,6 +537,14 @@
       }
     },
     {
+      "projectID": 400929,
+      "fileID": 3680371,
+      "required": true,
+      "__meta": {
+        "name": "cAn i MiNe thIS bLOCk?"
+      }
+    },
+    {
       "projectID": 401833,
       "fileID": 3752361,
       "required": true,
@@ -507,17 +576,6 @@
       }
     },
     {
-      "projectID": 406825,
-      "fileID": 3749846,
-      "required": true,
-      "__meta": {
-        "name": "Unearthed",
-        "dependencies": [
-          609850
-        ]
-      }
-    },
-    {
       "projectID": 407500,
       "fileID": 3740903,
       "required": true,
@@ -527,7 +585,7 @@
     },
     {
       "projectID": 408118,
-      "fileID": 3838424,
+      "fileID": 3881951,
       "required": true,
       "__meta": {
         "name": "megane",
@@ -545,6 +603,17 @@
       }
     },
     {
+      "projectID": 411705,
+      "fileID": 3548092,
+      "required": true,
+      "__meta": {
+        "name": "Damage Tilt",
+        "dependencies": [
+          306612
+        ]
+      }
+    },
+    {
       "projectID": 415758,
       "fileID": 3692365,
       "required": true,
@@ -554,7 +623,7 @@
     },
     {
       "projectID": 416294,
-      "fileID": 3846163,
+      "fileID": 3884668,
       "required": true,
       "__meta": {
         "name": "Rhino",
@@ -826,6 +895,17 @@
       }
     },
     {
+      "projectID": 481494,
+      "fileID": 3818527,
+      "required": true,
+      "__meta": {
+        "name": "Requiem - Pandemonium Expansion",
+        "dependencies": [
+          265729
+        ]
+      }
+    },
+    {
       "projectID": 482834,
       "fileID": 3770564,
       "required": true,
@@ -879,6 +959,17 @@
         "dependencies": [
           419697,
           308769
+        ]
+      }
+    },
+    {
+      "projectID": 510346,
+      "fileID": 3811283,
+      "required": true,
+      "__meta": {
+        "name": "Teeny Coal",
+        "dependencies": [
+          306612
         ]
       }
     },
@@ -943,7 +1034,7 @@
     },
     {
       "projectID": 541171,
-      "fileID": 3854539,
+      "fileID": 3884728,
       "required": true,
       "__meta": {
         "name": "Traveler's Backpack [Fabric]",
@@ -951,6 +1042,29 @@
           318449,
           306612,
           348521
+        ]
+      }
+    },
+    {
+      "projectID": 542196,
+      "fileID": 3709672,
+      "required": true,
+      "__meta": {
+        "name": "Besmirchment 2",
+        "dependencies": [
+          394915
+        ]
+      }
+    },
+    {
+      "projectID": 542221,
+      "fileID": 3837515,
+      "required": true,
+      "__meta": {
+        "name": "Dark Rites 2",
+        "dependencies": [
+          394915,
+          265729
         ]
       }
     },
@@ -971,8 +1085,16 @@
       }
     },
     {
+      "projectID": 551763,
+      "fileID": 3695148,
+      "required": true,
+      "__meta": {
+        "name": "Chisel Refabricated"
+      }
+    },
+    {
       "projectID": 552542,
-      "fileID": 3871977,
+      "fileID": 3885947,
       "required": true,
       "__meta": {
         "name": "Very Many Players (Fabric)"
@@ -980,7 +1102,7 @@
     },
     {
       "projectID": 552758,
-      "fileID": 3855800,
+      "fileID": 3875167,
       "required": true,
       "__meta": {
         "name": "Modern Dynamics",
@@ -1011,18 +1133,6 @@
       "__meta": {
         "name": "Feature NBT Deadlock Be Gone",
         "explicit": false
-      }
-    },
-    {
-      "projectID": 563800,
-      "fileID": 3856320,
-      "required": true,
-      "__meta": {
-        "name": "AE2 Things",
-        "dependencies": [
-          306612,
-          223794
-        ]
       }
     },
     {
@@ -1106,6 +1216,18 @@
       }
     },
     {
+      "projectID": 582588,
+      "fileID": 3866944,
+      "required": true,
+      "__meta": {
+        "name": "Bewitchment Plus",
+        "dependencies": [
+          394915,
+          388172
+        ]
+      }
+    },
+    {
       "projectID": 582640,
       "fileID": 3768225,
       "required": true,
@@ -1161,15 +1283,11 @@
       }
     },
     {
-      "projectID": 609850,
-      "fileID": 3746990,
+      "projectID": 610030,
+      "fileID": 3832920,
       "required": true,
       "__meta": {
-        "name": "Hyle",
-        "explicit": false,
-        "dependencies": [
-          319057
-        ]
+        "name": "UPC"
       }
     },
     {
@@ -1181,16 +1299,11 @@
       }
     },
     {
-      "projectID": 615948,
-      "fileID": 3841646,
+      "projectID": 616485,
+      "fileID": 3848245,
       "required": true,
       "__meta": {
-        "name": "TieredZ",
-        "dependencies": [
-          306612,
-          348521,
-          618433
-        ]
+        "name": "Incorporeal 3"
       }
     },
     {
@@ -1202,15 +1315,6 @@
         "dependencies": [
           306612
         ]
-      }
-    },
-    {
-      "projectID": 618433,
-      "fileID": 3772638,
-      "required": true,
-      "__meta": {
-        "name": "AutoTag",
-        "explicit": false
       }
     },
     {
@@ -1256,14 +1360,6 @@
       }
     },
     {
-      "projectID": 623941,
-      "fileID": 3793504,
-      "required": true,
-      "__meta": {
-        "name": "CreatePlus"
-      }
-    },
-    {
       "projectID": 624165,
       "fileID": 3848372,
       "required": true,
@@ -1285,7 +1381,7 @@
     },
     {
       "projectID": 627566,
-      "fileID": 3816149,
+      "fileID": 3885684,
       "required": true,
       "__meta": {
         "name": "MemoryLeakFix"
@@ -1301,7 +1397,7 @@
     },
     {
       "projectID": 633483,
-      "fileID": 3855681,
+      "fileID": 3873450,
       "required": true,
       "__meta": {
         "name": "Powah! (Rearchitected)",
@@ -1313,7 +1409,7 @@
     },
     {
       "projectID": 637696,
-      "fileID": 3859047,
+      "fileID": 3874980,
       "required": true,
       "__meta": {
         "name": "Audio Engine Tweaks"
@@ -1327,6 +1423,29 @@
         "name": "RPG Origins",
         "dependencies": [
           391943
+        ]
+      }
+    },
+    {
+      "projectID": 639871,
+      "fileID": 3884523,
+      "required": true,
+      "__meta": {
+        "name": "Wired Redstone",
+        "dependencies": [
+          308769,
+          306612
+        ]
+      }
+    },
+    {
+      "projectID": 643799,
+      "fileID": 3872389,
+      "required": true,
+      "__meta": {
+        "name": "Precise Damage",
+        "dependencies": [
+          306612
         ]
       }
     }
